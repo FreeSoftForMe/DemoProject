@@ -21,17 +21,17 @@ let infoPlist: [String: Plist.Value] = [
 
 
 
-let app = Target(name: "LearnLanguages",
+let app = Target(name: "DemoProject",
                  destinations: .iOS,
                  product: .app,
-                 productName: "LearnLanguages",
+                 productName: "DemoProject",
                  bundleId: "myrku.dev.com",
                  infoPlist: .extendingDefault(with: infoPlist),
                  sources: .paths([
-                     "Targets/LearnLanguage/Sources/**",
+                     "Targets/DemoProject/Sources/**",
                  ]),
                  resources: [
-                    "Targets/LearnLanguage/Resources/**",
+                    "Targets/DemoProject/Resources/**",
                  ],
                  dependencies: dependency)
 
