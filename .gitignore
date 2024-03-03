@@ -1,0 +1,5 @@
+Derived/
+Tuist/Dependencies/
+xcuserdata/
+*.xcodeproj
+*.xcworkspace
